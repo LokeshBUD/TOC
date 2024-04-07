@@ -23,7 +23,7 @@ dfa = VisualDFA(
     states={"q0", "q1", "q2", "q3", "q4"},
     input_symbols = {"0", "1"},
 
-    transitions={
+    transitions = {
         "q0": {"0": "q3", "1": "q1"},
         "q1": {"0": "q3", "1": "q2"},
         "q2": {"0": "q3", "1": "q2"},
