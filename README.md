@@ -53,4 +53,5 @@ new_dfa.show_diagram()
 
 ![](https://github.com/LokeshBUD/TOC/blob/main/state.jpeg)
 
-# 
+<small><strong>Your small bold text here</strong></small>
+
