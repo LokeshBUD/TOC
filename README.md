@@ -1,5 +1,5 @@
 # TOC
-TOC PROJECT
+#                                         TOC PROJECT
 
 |      Name          | Roll Number       |   Contribution                                                 |
 |--------------------|-------------------|----------------------------------------------------------------|
@@ -43,7 +43,7 @@ dfa = VisualDFA(
 
 )
 
-new_dfa.table
+new_dfa.table(
 
        0    1
 
@@ -52,6 +52,8 @@ new_dfa.table
  *q1  q0   q2
 
  q2   q2  *q1
+ 
+)
 
 new_dfa.show_diagram()
 
