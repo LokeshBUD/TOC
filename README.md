@@ -16,7 +16,7 @@ One is by using the Python libraries(NFAtoDFA file) and the other is by using th
 Visual Automata:
 Visual Automata is a Python 3 library built as a wrapper for the Automata library to add more visualization features.
 
-Define a visual_automata DFA that can accept any string ending with 00 or 11:
+# Define a visual_automata DFA that can accept any string ending with 00 or 11:
 
 ```python
 dfa = VisualDFA(
