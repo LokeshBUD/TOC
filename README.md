@@ -19,6 +19,7 @@ Visual Automata is a Python 3 library built as a wrapper for the Automata librar
 Define a visual_automata DFA that can accept any string ending with 00 or 11:
 
 dfa = VisualDFA(
+
     states={"q0", "q1", "q2", "q3", "q4"},
     
     input_symbols={"0", "1"},
