@@ -43,7 +43,6 @@ dfa = VisualDFA(
 
 )
 
-
 new_dfa.table
 
        0    1
