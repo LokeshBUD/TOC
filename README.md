@@ -16,7 +16,6 @@ One is by using the Python libraries(NFAtoDFA file) and the other is by using th
 # Libraries we used:
 
 <small><strong>Visual Automata:</strong></small>
-
 Visual Automata is a Python 3 library built as a wrapper for the Automata library to add more visualization features.
 
 <small><strong>Define a visual_automata DFA that can accept any string ending with 00 or 11:</strong></small>
@@ -55,7 +54,6 @@ new_dfa.show_diagram()
 ![](https://github.com/LokeshBUD/TOC/blob/main/state.jpeg)
 
 <small><strong>visual_automata.fa.dfa:</strong></small>
-
 This module specifically imports the VisualDFA class from the visual_automata library, which is used to create and visualize deterministic finite automata.
 
 
