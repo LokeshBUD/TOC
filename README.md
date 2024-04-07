@@ -54,5 +54,10 @@ new_dfa.show_diagram()
 
 ![](https://github.com/LokeshBUD/TOC/blob/main/state.jpeg)
 
-<small><strong>l</strong></small>
+<small><strong>visual_automata.fa.dfa:</strong></small>
+
+This module specifically imports the VisualDFA class from the visual_automata library, which is used to create and visualize deterministic finite automata.
+
+
+
 
