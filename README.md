@@ -31,6 +31,7 @@ dfa = VisualDFA(
     initial_state="q0",
     final_states={"q2", "q4"},
 )
+
 new_dfa.table
       0    1
 →q0  q0  *q1
