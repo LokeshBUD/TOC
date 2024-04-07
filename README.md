@@ -13,14 +13,16 @@
 There are two different implementations.
 One is by using the Python libraries(NFAtoDFA file) and the other is by using the logic(TOC FOLDER).
 
-Visual Automata:
+Libraries we used:
+
+# Visual Automata:
 Visual Automata is a Python 3 library built as a wrapper for the Automata library to add more visualization features.
 
 # Define a visual_automata DFA that can accept any string ending with 00 or 11:
 
 ```python
 dfa = VisualDFA(
-    states={"q0", "q1", "q2", "q3", "q4"},
+    states = {"q0", "q1", "q2", "q3", "q4"},
     input_symbols = {"0", "1"},
 
     transitions = {
@@ -50,3 +52,5 @@ dfa = VisualDFA(
 new_dfa.show_diagram()
 
 ![](https://github.com/LokeshBUD/TOC/blob/main/state.jpeg)
+
+# 
