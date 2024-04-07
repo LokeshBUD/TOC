@@ -40,7 +40,7 @@ dfa = VisualDFA(
 ```
 
 
-# new_dfa.table
+<small><strong>new_dfa.table</strong></small>
 ```
        0    1
 
