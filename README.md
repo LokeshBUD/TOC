@@ -1,13 +1,13 @@
 # TOC
 #                                         TOC PROJECT
 
-|      Name          | Roll Number       |   Contribution                                                 |
-|--------------------|-------------------|----------------------------------------------------------------|
-| Karthik Krishna    | CB.EN.U4CSE22024  |  2nd type of implementation(TOC FOLDER)                        |
-| Lokesh Budda       | CB.EN.U4CSE22026  |  implemetation using libraries(NFAtoDFA file)                  |
-| Shrish Kumar       | CB.EN.U4CSE22048  |  2nd type of implementation(TOC FOLDER)                        |
-| Sai Keerthana      | CB.EN.U4CSE22050  |  implemetation using libraries(NFAtoDFA file) & documentation  |
-| Senthil Adithya    | CB.EN.U4CSE22054  |  implemetation using libraries(NFAtoDFA file)                  |
+|      Name          | Roll Number       |   Contribution                                                   |
+|--------------------|-------------------|------------------------------------------------------------------|
+| Karthik Krishna    | CB.EN.U4CSE22024  |  2nd type of implementation (TOC FOLDER)                         |
+| Lokesh Budda       | CB.EN.U4CSE22026  |  implementation using libraries (NFAtoDFA file)                  |
+| Shrish Kumar       | CB.EN.U4CSE22048  |  2nd type of implementation (TOC FOLDER)                         |
+| Sai Keerthana      | CB.EN.U4CSE22050  |  implementation using libraries (NFAtoDFA file) & documentation  |
+| Senthil Adithya    | CB.EN.U4CSE22054  |  implementation using libraries (NFAtoDFA file)                  |
 
 
 There are two different implementations.
@@ -22,6 +22,7 @@ Visual Automata is a Python 3 library built as a wrapper for the Automata librar
 dfa = VisualDFA(
     states={"q0", "q1", "q2", "q3", "q4"},
     input_symbols={"0", "1"},
+
     transitions={
         "q0": {"0": "q3", "1": "q1"},
         "q1": {"0": "q3", "1": "q2"},
@@ -29,6 +30,7 @@ dfa = VisualDFA(
         "q3": {"0": "q4", "1": "q1"},
         "q4": {"0": "q4", "1": "q1"},
     },
+
     initial_state="q0",
     final_states={"q2", "q4"},
 )
@@ -38,8 +40,11 @@ dfa = VisualDFA(
 # new_dfa.table
 ```
        0    1
+
  →q0  q0  *q1
+
  *q1  q0   q2
+
  q2   q2  *q1
  ```
 new_dfa.show_diagram()
