@@ -13,12 +13,13 @@
 There are two different implementations.
 One is by using the Python libraries(NFAtoDFA file) and the other is by using the logic(TOC FOLDER).
 
-Libraries we used:
+# Libraries we used:
 
-# Visual Automata:
+<small><strong>Visual Automata:</strong></small>
+
 Visual Automata is a Python 3 library built as a wrapper for the Automata library to add more visualization features.
 
-# Define a visual_automata DFA that can accept any string ending with 00 or 11:
+<small><strong>Define a visual_automata DFA that can accept any string ending with 00 or 11:</strong></small>
 
 ```python
 dfa = VisualDFA(
@@ -53,5 +54,5 @@ new_dfa.show_diagram()
 
 ![](https://github.com/LokeshBUD/TOC/blob/main/state.jpeg)
 
-<small><strong>Your small bold text here</strong></small>
+<small><strong>l</strong></small>
 
