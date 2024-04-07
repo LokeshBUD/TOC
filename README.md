@@ -18,6 +18,7 @@ One is by using the Python libraries(NFAtoDFA file) and the other is by using th
 <small><strong>1. Visual Automata:</strong></small>
 Visual Automata is a Python 3 library built as a wrapper for the Automata library to add more visualization features.
 
+# Example of Visual_automata
 <small><strong>Define a visual_automata DFA that can accept any string ending with 00 or 11:</strong></small>
 
 ```python
