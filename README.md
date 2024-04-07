@@ -17,6 +17,7 @@ One is by using the Python libraries(NFAtoDFA file) and the other is by using th
 
 <small><strong>1. Visual Automata:</strong></small>
 Visual Automata is a Python 3 library built as a wrapper for the Automata library to add more visualization features.
+
 [Link to the Documentation for Visual Automata](https://pypi.org/project/visual-automata/)
 
 # Example of Visual_automata
