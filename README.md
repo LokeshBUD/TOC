@@ -10,5 +10,7 @@ TOC PROJECT
 | Senthil Adithya    | CB.EN.U4CSE22054  |  implemetation using libraries(NFAtoDFA file)                  |
 
 
+
+
 There are two different implementations.
 One is by using the Python libraries(NFAtoDFA file) and the other is by using the logic(TOC FOLDER).
